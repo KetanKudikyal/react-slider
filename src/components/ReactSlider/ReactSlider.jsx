@@ -80,7 +80,7 @@ function alignValue(val, props) {
         alignedValue += valModStep > 0 ? props.step : -props.step;
     }
 
-    return parseFloat(alignedValue.toFixed(5));
+    return parseFloat(alignedValue);
 }
 
 function trimValue(val, props) {
